@@ -208,3 +208,28 @@ li:hover {
     border-left-color: #D7E5CA;
     border-left-style: solid;
 }
+
+.otherTitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.otherTileItem {
+    margin: 10px;
+    padding: 15px;
+}
+
+.otherTileItem .otherTitle {
+    font-size: 1.5rem;
+}
+
+.otherTileItem p {
+    margin: 0;
+}
+
+.otherTileItem + .otherTileItem {
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: #888888;
+}
+
