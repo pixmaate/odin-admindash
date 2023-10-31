@@ -89,6 +89,7 @@ li:hover {
 
 .otherCards {
     padding: 20px;
+    overflow: auto;
 }
 
 .projectCards {
