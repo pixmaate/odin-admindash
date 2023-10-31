@@ -2,6 +2,13 @@
     font-size: 12px;
 }
 
+p,
+li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 body, html, .main-wrapper {
     height: 100%;
     width: 100%;
@@ -14,7 +21,7 @@ body, html, .main-wrapper {
 }
 
 .sideNav {
-    background-color: aqua;
+    background-color: #8EACCD;
     grid-row: 1 / 6;
     color: white;
     font-size: 1.5rem;
@@ -40,6 +47,30 @@ body, html, .main-wrapper {
 ul, li {
     list-style: none;
     padding-left: 5%;
+    align-items: center;
+}
+
+li img {
+    width: 2rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(53deg) brightness(105%) contrast(101%);
+}
+
+#heroIcon {
+    width: 4rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(53deg) brightness(105%) contrast(101%);
+}
+
+#pageTitle {
+    font-size: 2rem;
+}
+
+ul {
+    margin-bottom: 3rem;
+}
+
+li {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
 }
 
 li:hover {
