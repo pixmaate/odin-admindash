@@ -1,0 +1,29 @@
+:root {
+    font-size: 12px;
+}
+
+body, html, .main-wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main-wrapper {
+    display: grid;
+    grid-template: repeat(5, 1fr) / 1fr 4fr;
+}
+
+.sideNav {
+    background-color: aqua;
+    grid-row: 1 / 6;
+}
+
+.headerNav{
+    background-color: beige;
+    grid-column: 2 / 3;
+}
+
+.mainareaContent {
+    background-color: grey;
+    grid-row: 2 / 6;
+}
