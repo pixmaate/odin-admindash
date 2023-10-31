@@ -16,6 +16,9 @@ body, html, .main-wrapper {
 .sideNav {
     background-color: aqua;
     grid-row: 1 / 6;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .headerNav{
@@ -26,4 +29,27 @@ body, html, .main-wrapper {
 .mainareaContent {
     background-color: grey;
     grid-row: 2 / 6;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
+
+.projectTile,
+.otherTile {
+    background-color: white;
+}
+
+.projectCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
 }
