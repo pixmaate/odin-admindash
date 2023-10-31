@@ -81,6 +81,10 @@ li:hover {
 .projectTile,
 .otherTile {
     background-color: white;
+    padding: 5px 25px 5px 25px;
+    box-shadow: 5px 5px 2px -2px #888888;
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 
 
@@ -89,7 +93,7 @@ li:hover {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
     overflow: auto;
-    margin: 15px;
+    padding: 15px;
 }
 
 .profile {
@@ -178,4 +182,29 @@ li:hover {
     justify-content: flex-end;
     gap: 1rem;
     margin-right: 10%;
+}
+
+.projectImg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.projectFooter {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.projectTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.projectTile {
+    display: grid;
+    grid-template: 1fr 0.3fr / 1fr;
+    border-left: 15px;
+    border-left-color: #D7E5CA;
+    border-left-style: solid;
 }
