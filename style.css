@@ -40,7 +40,7 @@ body, html, .main-wrapper {
 .mainareaContent {
     grid-row: 2 / 6;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
     gap: 20px;
     padding: 10px;
 }
@@ -87,6 +87,9 @@ li:hover {
     box-sizing: border-box;
 }
 
+.otherCards {
+    padding: 20px;
+}
 
 .projectCards {
     display: grid;
@@ -233,3 +236,24 @@ li:hover {
     border-color: #888888;
 }
 
+.trendingImg {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.trendingItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.trendingInfo p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.userID {
+    font-weight: 600;
+}
